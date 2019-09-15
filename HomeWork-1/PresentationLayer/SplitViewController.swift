@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SplitViewController.swift
 //  HomeWork-1
 //
 //  Created by Pavel Smelovsky on 15/09/2019.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SplitViewController: UISplitViewController, UISplitViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        self.delegate = self
     }
-
-
 }
-
