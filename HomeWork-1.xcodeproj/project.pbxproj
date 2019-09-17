@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		E9BB2E35232E689000174408 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BB2E34232E689000174408 /* SplitViewController.swift */; };
 		E9BB2E37232E730E00174408 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BB2E36232E730E00174408 /* FeedViewController.swift */; };
+		E9C9DA5E2331670500AE5287 /* LifecycleBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9DA5D2331670500AE5287 /* LifecycleBehavior.swift */; };
+		E9C9DA602331681700AE5287 /* LifecycleBehaviorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9DA5F2331681700AE5287 /* LifecycleBehaviorViewController.swift */; };
+		E9C9DA622331693800AE5287 /* UIViewController+LifecycleBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9DA612331693800AE5287 /* UIViewController+LifecycleBehavior.swift */; };
+		E9C9DA6623316EF200AE5287 /* PrintMethodsLifecycleBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9DA6523316EF200AE5287 /* PrintMethodsLifecycleBehavior.swift */; };
+		E9C9DA6823316F8400AE5287 /* TimerLifecycleBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9DA6723316F8400AE5287 /* TimerLifecycleBehavior.swift */; };
+		E9C9DA6A2331716200AE5287 /* BenchmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9DA692331716200AE5287 /* BenchmarkViewController.swift */; };
+		E9C9DA6C2331757E00AE5287 /* UINavigationBarTintLifecycleBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9DA6B2331757E00AE5287 /* UINavigationBarTintLifecycleBehavior.swift */; };
+		E9C9DA6E2331769100AE5287 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9DA6D2331769100AE5287 /* ProfileViewController.swift */; };
+		E9C9DA702331777A00AE5287 /* TabbarTintColorLifecycleBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9DA6F2331777A00AE5287 /* TabbarTintColorLifecycleBehavior.swift */; };
 		E9E77F4F232E4F8500399CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E77F4E232E4F8500399CEA /* AppDelegate.swift */; };
 		E9E77F54232E4F8500399CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E77F52232E4F8500399CEA /* Main.storyboard */; };
 		E9E77F56232E4F8700399CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E77F55232E4F8700399CEA /* Assets.xcassets */; };
@@ -23,6 +32,15 @@
 /* Begin PBXFileReference section */
 		E9BB2E34232E689000174408 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 		E9BB2E36232E730E00174408 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		E9C9DA5D2331670500AE5287 /* LifecycleBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleBehavior.swift; sourceTree = "<group>"; };
+		E9C9DA5F2331681700AE5287 /* LifecycleBehaviorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleBehaviorViewController.swift; sourceTree = "<group>"; };
+		E9C9DA612331693800AE5287 /* UIViewController+LifecycleBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+LifecycleBehavior.swift"; sourceTree = "<group>"; };
+		E9C9DA6523316EF200AE5287 /* PrintMethodsLifecycleBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintMethodsLifecycleBehavior.swift; sourceTree = "<group>"; };
+		E9C9DA6723316F8400AE5287 /* TimerLifecycleBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerLifecycleBehavior.swift; sourceTree = "<group>"; };
+		E9C9DA692331716200AE5287 /* BenchmarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchmarkViewController.swift; sourceTree = "<group>"; };
+		E9C9DA6B2331757E00AE5287 /* UINavigationBarTintLifecycleBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationBarTintLifecycleBehavior.swift; sourceTree = "<group>"; };
+		E9C9DA6D2331769100AE5287 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E9C9DA6F2331777A00AE5287 /* TabbarTintColorLifecycleBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarTintColorLifecycleBehavior.swift; sourceTree = "<group>"; };
 		E9E77F4B232E4F8500399CEA /* HomeWork-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E77F4E232E4F8500399CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9E77F53232E4F8500399CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,8 +70,40 @@
 			children = (
 				E9BB2E34232E689000174408 /* SplitViewController.swift */,
 				E9BB2E36232E730E00174408 /* FeedViewController.swift */,
+				E9C9DA692331716200AE5287 /* BenchmarkViewController.swift */,
+				E9C9DA6D2331769100AE5287 /* ProfileViewController.swift */,
 			);
 			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		E9C9DA5C233166CB00AE5287 /* ViewControllerLyfecycleBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				E9C9DA6423316EB700AE5287 /* Behaviors */,
+				E9C9DA6323316EA600AE5287 /* Impl */,
+			);
+			path = ViewControllerLyfecycleBehavior;
+			sourceTree = "<group>";
+		};
+		E9C9DA6323316EA600AE5287 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				E9C9DA5D2331670500AE5287 /* LifecycleBehavior.swift */,
+				E9C9DA5F2331681700AE5287 /* LifecycleBehaviorViewController.swift */,
+				E9C9DA612331693800AE5287 /* UIViewController+LifecycleBehavior.swift */,
+			);
+			path = Impl;
+			sourceTree = "<group>";
+		};
+		E9C9DA6423316EB700AE5287 /* Behaviors */ = {
+			isa = PBXGroup;
+			children = (
+				E9C9DA6F2331777A00AE5287 /* TabbarTintColorLifecycleBehavior.swift */,
+				E9C9DA6523316EF200AE5287 /* PrintMethodsLifecycleBehavior.swift */,
+				E9C9DA6723316F8400AE5287 /* TimerLifecycleBehavior.swift */,
+				E9C9DA6B2331757E00AE5287 /* UINavigationBarTintLifecycleBehavior.swift */,
+			);
+			path = Behaviors;
 			sourceTree = "<group>";
 		};
 		E9E77F42232E4F8500399CEA = {
@@ -90,6 +140,7 @@
 		E9E77F60232E551100399CEA /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				E9C9DA5C233166CB00AE5287 /* ViewControllerLyfecycleBehavior */,
 				E9E77F65232E59B800399CEA /* DetailComponent */,
 				E9E77F61232E553100399CEA /* Button.swift */,
 			);
@@ -180,11 +231,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9BB2E35232E689000174408 /* SplitViewController.swift in Sources */,
+				E9C9DA702331777A00AE5287 /* TabbarTintColorLifecycleBehavior.swift in Sources */,
+				E9C9DA6C2331757E00AE5287 /* UINavigationBarTintLifecycleBehavior.swift in Sources */,
+				E9C9DA622331693800AE5287 /* UIViewController+LifecycleBehavior.swift in Sources */,
+				E9C9DA5E2331670500AE5287 /* LifecycleBehavior.swift in Sources */,
+				E9C9DA6E2331769100AE5287 /* ProfileViewController.swift in Sources */,
 				E9E77F6B232E5AE200399CEA /* InternalContainerView.swift in Sources */,
 				E9E77F62232E553100399CEA /* Button.swift in Sources */,
+				E9C9DA6823316F8400AE5287 /* TimerLifecycleBehavior.swift in Sources */,
 				E9E77F67232E59F200399CEA /* LoadingComponent.swift in Sources */,
 				E9BB2E37232E730E00174408 /* FeedViewController.swift in Sources */,
+				E9C9DA6623316EF200AE5287 /* PrintMethodsLifecycleBehavior.swift in Sources */,
 				E9E77F4F232E4F8500399CEA /* AppDelegate.swift in Sources */,
+				E9C9DA6A2331716200AE5287 /* BenchmarkViewController.swift in Sources */,
+				E9C9DA602331681700AE5287 /* LifecycleBehaviorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

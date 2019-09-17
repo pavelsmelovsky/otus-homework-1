@@ -10,6 +10,12 @@ import UIKit
 
 class FeedViewController: UIViewController {
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        self.add(behaviors: [PrintMethodsLifecycleBehavior()])
+    }
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let navctrl = segue.destination as? UINavigationController,
             let controller = navctrl.topViewController {
