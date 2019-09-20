@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E92B03702335528200479130 /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92B036F2335528200479130 /* Feed.storyboard */; };
+		E92B03722335551400479130 /* ThirdFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B03712335551400479130 /* ThirdFeedViewController.swift */; };
+		E92B03742335561C00479130 /* SecondFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B03732335561C00479130 /* SecondFeedViewController.swift */; };
 		E9BB2E35232E689000174408 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BB2E34232E689000174408 /* SplitViewController.swift */; };
 		E9BB2E37232E730E00174408 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BB2E36232E730E00174408 /* FeedViewController.swift */; };
 		E9C9DA5E2331670500AE5287 /* LifecycleBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9DA5D2331670500AE5287 /* LifecycleBehavior.swift */; };
@@ -30,6 +33,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E92B036F2335528200479130 /* Feed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
+		E92B03712335551400479130 /* ThirdFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFeedViewController.swift; sourceTree = "<group>"; };
+		E92B03732335561C00479130 /* SecondFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFeedViewController.swift; sourceTree = "<group>"; };
 		E9BB2E34232E689000174408 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 		E9BB2E36232E730E00174408 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		E9C9DA5D2331670500AE5287 /* LifecycleBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleBehavior.swift; sourceTree = "<group>"; };
@@ -65,13 +71,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E9BB2E33232E686900174408 /* PresentationLayer */ = {
+		E92B036B23354E7600479130 /* Split View Controller */ = {
 			isa = PBXGroup;
 			children = (
 				E9BB2E34232E689000174408 /* SplitViewController.swift */,
+			);
+			path = "Split View Controller";
+			sourceTree = "<group>";
+		};
+		E92B036C23354E9A00479130 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				E92B036F2335528200479130 /* Feed.storyboard */,
 				E9BB2E36232E730E00174408 /* FeedViewController.swift */,
+				E92B03732335561C00479130 /* SecondFeedViewController.swift */,
+				E92B03712335551400479130 /* ThirdFeedViewController.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		E92B036D2335521900479130 /* Benchmark */ = {
+			isa = PBXGroup;
+			children = (
 				E9C9DA692331716200AE5287 /* BenchmarkViewController.swift */,
+			);
+			path = Benchmark;
+			sourceTree = "<group>";
+		};
+		E92B036E2335522200479130 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
 				E9C9DA6D2331769100AE5287 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E9BB2E33232E686900174408 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E92B036B23354E7600479130 /* Split View Controller */,
+				E92B036C23354E9A00479130 /* Feed */,
+				E92B036D2335521900479130 /* Benchmark */,
+				E92B036E2335522200479130 /* Profile */,
 			);
 			path = PresentationLayer;
 			sourceTree = "<group>";
@@ -217,6 +258,7 @@
 			files = (
 				E9E77F6D232E5F9400399CEA /* Secondary.storyboard in Resources */,
 				E9E77F59232E4F8700399CEA /* LaunchScreen.storyboard in Resources */,
+				E92B03702335528200479130 /* Feed.storyboard in Resources */,
 				E9E77F69232E5A0500399CEA /* LoadingComponent.xib in Resources */,
 				E9E77F56232E4F8700399CEA /* Assets.xcassets in Resources */,
 				E9E77F54232E4F8500399CEA /* Main.storyboard in Resources */,
@@ -236,8 +278,10 @@
 				E9C9DA622331693800AE5287 /* UIViewController+LifecycleBehavior.swift in Sources */,
 				E9C9DA5E2331670500AE5287 /* LifecycleBehavior.swift in Sources */,
 				E9C9DA6E2331769100AE5287 /* ProfileViewController.swift in Sources */,
+				E92B03722335551400479130 /* ThirdFeedViewController.swift in Sources */,
 				E9E77F6B232E5AE200399CEA /* InternalContainerView.swift in Sources */,
 				E9E77F62232E553100399CEA /* Button.swift in Sources */,
+				E92B03742335561C00479130 /* SecondFeedViewController.swift in Sources */,
 				E9C9DA6823316F8400AE5287 /* TimerLifecycleBehavior.swift in Sources */,
 				E9E77F67232E59F200399CEA /* LoadingComponent.swift in Sources */,
 				E9BB2E37232E730E00174408 /* FeedViewController.swift in Sources */,
