@@ -74,19 +74,25 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REa-oa-d8f" userLabel="Action button">
-                                <rect key="frame" x="177" y="255" width="60" height="30"/>
-                                <state key="normal" title="Push me"/>
+                                <rect key="frame" x="163.5" y="255" width="87" height="30"/>
+                                <state key="normal" title="Show details"/>
                                 <connections>
-                                    <segue destination="vFx-vm-Gmd" kind="showDetail" id="KxA-LP-e5g">
-                                        <segue key="commit" inheritsFrom="parent" id="53A-0l-Pfx"/>
-                                        <segue key="preview" inheritsFrom="commit" id="ftm-BY-T1U"/>
-                                    </segue>
+                                    <segue destination="vFx-vm-Gmd" kind="showDetail" id="vMb-nz-wIC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2eX-T1-gog">
+                                <rect key="frame" x="137.5" y="317" width="139" height="30"/>
+                                <state key="normal" title="Push into navigation"/>
+                                <connections>
+                                    <segue destination="hyx-zy-HWy" kind="show" id="KLR-wu-Dfy"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="2eX-T1-gog" firstAttribute="centerX" secondItem="b4I-CY-sBP" secondAttribute="centerX" id="2OR-kZ-xLD"/>
                             <constraint firstItem="3se-JG-tov" firstAttribute="top" secondItem="MSm-tE-PXQ" secondAttribute="top" constant="64" id="4Ky-jr-B6d"/>
+                            <constraint firstItem="2eX-T1-gog" firstAttribute="top" secondItem="REa-oa-d8f" secondAttribute="bottom" constant="32" id="TMG-D0-lRs"/>
                             <constraint firstItem="REa-oa-d8f" firstAttribute="centerX" secondItem="b4I-CY-sBP" secondAttribute="centerX" id="ij1-Fo-YP0"/>
                             <constraint firstItem="MSm-tE-PXQ" firstAttribute="trailing" secondItem="3se-JG-tov" secondAttribute="trailing" constant="64" id="kVK-X0-MKH"/>
                             <constraint firstItem="REa-oa-d8f" firstAttribute="top" secondItem="3se-JG-tov" secondAttribute="bottom" constant="64" id="oRc-pS-h1n"/>
@@ -99,6 +105,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rbd-oc-ANR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3706" y="-1534"/>
+        </scene>
+        <!--Feed-->
+        <scene sceneID="BQx-Ad-VlW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Feed" id="hyx-zy-HWy" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Ja-Bp-rNe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4385" y="-1775"/>
         </scene>
         <!--Benchmark Navigation Controller-->
         <scene sceneID="K9r-cG-SK7">
@@ -272,6 +286,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="KxA-LP-e5g"/>
+        <segue reference="vMb-nz-wIC"/>
     </inferredMetricsTieBreakers>
 </document>

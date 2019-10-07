@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pch-gh-TtC">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Second vie wcontroller-->
+        <scene sceneID="Nmc-bL-3t3">
+            <objects>
+                <viewController id="pch-gh-TtC" userLabel="Second vie wcontroller" customClass="SecondFeedViewController" customModule="HomeWork_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gCm-6U-YQ8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yK5-ec-bHS">
+                                <rect key="frame" x="141" y="433" width="132" height="30"/>
+                                <state key="normal" title="Go to next page &gt;&gt;"/>
+                                <connections>
+                                    <segue destination="Vpg-9E-AwG" kind="show" id="Vcg-ca-RD9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yK5-ec-bHS" firstAttribute="centerX" secondItem="gCm-6U-YQ8" secondAttribute="centerX" id="CCX-9m-jP0"/>
+                            <constraint firstItem="yK5-ec-bHS" firstAttribute="centerY" secondItem="gCm-6U-YQ8" secondAttribute="centerY" id="qgI-1w-OEh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ec5-pO-KAD"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Second view controller" id="ncL-zP-xIt"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Xm-Am-5G9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48" y="151"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="tr3-cS-nKK">
+            <objects>
+                <viewController id="Vpg-9E-AwG" userLabel="Third View Controller" customClass="ThirdFeedViewController" customModule="HomeWork_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gWO-0X-QDr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="d13-1v-HBX"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Third view controller" id="vNa-rP-81k"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="27c-26-rgf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="949" y="151"/>
+        </scene>
+    </scenes>
+</document>
