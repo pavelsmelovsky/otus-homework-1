@@ -183,7 +183,7 @@
         <!--Benchmark View Controller-->
         <scene sceneID="hui-XJ-2mS">
             <objects>
-                <viewController id="UIL-ad-oO9" userLabel="Benchmark View Controller" sceneMemberID="viewController">
+                <viewController id="UIL-ad-oO9" userLabel="Benchmark View Controller" customClass="BenchmarkViewController" customModule="HomeWork_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KTr-zM-Jyk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -217,7 +217,7 @@
         <!--Profile View Controller-->
         <scene sceneID="IRr-at-gpE">
             <objects>
-                <viewController id="l38-oE-Qgy" userLabel="Profile View Controller" sceneMemberID="viewController">
+                <viewController id="l38-oE-Qgy" userLabel="Profile View Controller" customClass="ProfileViewController" customModule="HomeWork_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oDq-61-PVu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
