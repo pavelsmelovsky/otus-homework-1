@@ -205,27 +205,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Benchmark" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIm-EF-hFB" userLabel="Title">
-                                <rect key="frame" x="64" y="152" width="286" height="39"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BXQ-Hp-VYw">
-                                <rect key="frame" x="182.5" y="432.5" width="51" height="31"/>
-                            </switch>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" prefetchingEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rTM-mh-qkq">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Oet-j3-UFn">
+                                    <size key="itemSize" width="80" height="80"/>
+                                    <size key="estimatedItemSize" width="80" height="80"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="BXQ-Hp-VYw" firstAttribute="centerX" secondItem="KTr-zM-Jyk" secondAttribute="centerX" id="1ke-9q-elv"/>
-                            <constraint firstItem="kIm-EF-hFB" firstAttribute="top" secondItem="vBU-o6-Y1f" secondAttribute="top" constant="64" id="RO3-IE-sef"/>
-                            <constraint firstItem="vBU-o6-Y1f" firstAttribute="trailing" secondItem="kIm-EF-hFB" secondAttribute="trailing" constant="64" id="saK-cG-5N5"/>
-                            <constraint firstItem="BXQ-Hp-VYw" firstAttribute="centerY" secondItem="KTr-zM-Jyk" secondAttribute="centerY" id="wfj-Sp-NJj"/>
-                            <constraint firstItem="kIm-EF-hFB" firstAttribute="leading" secondItem="vBU-o6-Y1f" secondAttribute="leading" constant="64" id="zgD-Zq-4us"/>
+                            <constraint firstItem="rTM-mh-qkq" firstAttribute="leading" secondItem="KTr-zM-Jyk" secondAttribute="leading" id="QDr-wb-CjB"/>
+                            <constraint firstAttribute="trailing" secondItem="rTM-mh-qkq" secondAttribute="trailing" id="u3G-vi-6NL"/>
+                            <constraint firstItem="rTM-mh-qkq" firstAttribute="top" secondItem="KTr-zM-Jyk" secondAttribute="top" id="up1-MW-EAk"/>
+                            <constraint firstAttribute="bottom" secondItem="rTM-mh-qkq" secondAttribute="bottom" id="zYR-qF-fGH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vBU-o6-Y1f"/>
                     </view>
                     <navigationItem key="navigationItem" id="6Bg-c6-CoH"/>
+                    <connections>
+                        <outlet property="collectionView" destination="rTM-mh-qkq" id="3ww-xe-yOQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PSV-BP-puA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

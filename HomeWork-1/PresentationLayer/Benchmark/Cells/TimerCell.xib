@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="iNQ-RX-dq4" customClass="TimerCell" customModule="HomeWork_1" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="TJe-mh-tlV">
+                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ffy-aS-izz">
+                        <rect key="frame" x="4" y="4" width="112" height="112"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hnn-Wj-zKw" userLabel="Start Container">
+                                <rect key="frame" x="0.0" y="0.0" width="56" height="112"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vnm-B6-qbu" userLabel="Start View">
+                                        <rect key="frame" x="18" y="46" width="20" height="20"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="lUq-E8-vtB"/>
+                                            <constraint firstAttribute="height" constant="20" id="wBO-J5-Oye"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="vnm-B6-qbu" firstAttribute="centerY" secondItem="hnn-Wj-zKw" secondAttribute="centerY" id="MCQ-7a-oqf"/>
+                                    <constraint firstItem="vnm-B6-qbu" firstAttribute="centerX" secondItem="hnn-Wj-zKw" secondAttribute="centerX" id="UBI-Xf-Rkw"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mWC-7O-gSc" userLabel="End Container">
+                                <rect key="frame" x="56" y="0.0" width="56" height="112"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g5b-FM-AqK" userLabel="End View">
+                                        <rect key="frame" x="18" y="46" width="20" height="20"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="ZkA-Cy-FxN"/>
+                                            <constraint firstAttribute="height" constant="20" id="jkK-AG-fqq"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="g5b-FM-AqK" firstAttribute="centerY" secondItem="mWC-7O-gSc" secondAttribute="centerY" id="XxN-Xp-k9J"/>
+                                    <constraint firstItem="g5b-FM-AqK" firstAttribute="centerX" secondItem="mWC-7O-gSc" secondAttribute="centerX" id="hJs-Qr-VVN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ffy-aS-izz" secondAttribute="trailing" constant="4" id="6oA-Lq-HJa"/>
+                    <constraint firstItem="ffy-aS-izz" firstAttribute="leading" secondItem="TJe-mh-tlV" secondAttribute="leading" constant="4" id="BP3-Fa-cL6"/>
+                    <constraint firstItem="ffy-aS-izz" firstAttribute="top" secondItem="TJe-mh-tlV" secondAttribute="top" constant="4" id="ODx-0g-dKR"/>
+                    <constraint firstAttribute="bottom" secondItem="ffy-aS-izz" secondAttribute="bottom" constant="4" id="oVc-ks-kR2"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <connections>
+                <outlet property="endView" destination="g5b-FM-AqK" id="73c-X9-sfa"/>
+                <outlet property="startView" destination="vnm-B6-qbu" id="dO3-mG-zME"/>
+            </connections>
+            <point key="canvasLocation" x="-191" y="69"/>
+        </collectionViewCell>
+    </objects>
+</document>
