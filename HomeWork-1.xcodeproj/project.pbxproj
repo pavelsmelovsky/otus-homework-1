@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E90EA798234BAA1D00E54140 /* FeedDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90EA797234BAA1D00E54140 /* FeedDataProvider.swift */; };
+		E911E808234F9F710002123E /* TimerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E911E807234F9F710002123E /* TimerItem.swift */; };
+		E911E80A234FA4C80002123E /* TimerItemsDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E911E809234FA4C80002123E /* TimerItemsDataProvider.swift */; };
+		E911E80C234FA7280002123E /* TimerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E911E80B234FA7280002123E /* TimerCell.swift */; };
+		E911E80E234FA9B40002123E /* TimerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E911E80D234FA9B40002123E /* TimerCell.xib */; };
+		E911E811234FBE7E0002123E /* CollectionTimersBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E911E810234FBE7E0002123E /* CollectionTimersBehavior.swift */; };
 		E92B03702335528200479130 /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92B036F2335528200479130 /* Feed.storyboard */; };
 		E92B03722335551400479130 /* ThirdFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B03712335551400479130 /* ThirdFeedViewController.swift */; };
 		E92B03742335561C00479130 /* SecondFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B03732335561C00479130 /* SecondFeedViewController.swift */; };
@@ -33,6 +39,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E90EA797234BAA1D00E54140 /* FeedDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDataProvider.swift; sourceTree = "<group>"; };
+		E911E807234F9F710002123E /* TimerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerItem.swift; sourceTree = "<group>"; };
+		E911E809234FA4C80002123E /* TimerItemsDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerItemsDataProvider.swift; sourceTree = "<group>"; };
+		E911E80B234FA7280002123E /* TimerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCell.swift; sourceTree = "<group>"; };
+		E911E80D234FA9B40002123E /* TimerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerCell.xib; sourceTree = "<group>"; };
+		E911E810234FBE7E0002123E /* CollectionTimersBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTimersBehavior.swift; sourceTree = "<group>"; };
 		E92B036F2335528200479130 /* Feed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
 		E92B03712335551400479130 /* ThirdFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFeedViewController.swift; sourceTree = "<group>"; };
 		E92B03732335561C00479130 /* SecondFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFeedViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +83,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E911E805234F9F3A0002123E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E911E80B234FA7280002123E /* TimerCell.swift */,
+				E911E80D234FA9B40002123E /* TimerCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E911E806234F9F4C0002123E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E911E807234F9F710002123E /* TimerItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E911E80F234FBE6B0002123E /* Behaviors */ = {
+			isa = PBXGroup;
+			children = (
+				E911E810234FBE7E0002123E /* CollectionTimersBehavior.swift */,
+			);
+			path = Behaviors;
+			sourceTree = "<group>";
+		};
 		E92B036B23354E7600479130 /* Split View Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +123,7 @@
 				E9BB2E36232E730E00174408 /* FeedViewController.swift */,
 				E92B03732335561C00479130 /* SecondFeedViewController.swift */,
 				E92B03712335551400479130 /* ThirdFeedViewController.swift */,
+				E90EA797234BAA1D00E54140 /* FeedDataProvider.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -93,7 +131,11 @@
 		E92B036D2335521900479130 /* Benchmark */ = {
 			isa = PBXGroup;
 			children = (
+				E911E80F234FBE6B0002123E /* Behaviors */,
+				E911E806234F9F4C0002123E /* Models */,
+				E911E805234F9F3A0002123E /* Cells */,
 				E9C9DA692331716200AE5287 /* BenchmarkViewController.swift */,
+				E911E809234FA4C80002123E /* TimerItemsDataProvider.swift */,
 			);
 			path = Benchmark;
 			sourceTree = "<group>";
@@ -261,6 +303,7 @@
 				E92B03702335528200479130 /* Feed.storyboard in Resources */,
 				E9E77F69232E5A0500399CEA /* LoadingComponent.xib in Resources */,
 				E9E77F56232E4F8700399CEA /* Assets.xcassets in Resources */,
+				E911E80E234FA9B40002123E /* TimerCell.xib in Resources */,
 				E9E77F54232E4F8500399CEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,17 +315,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E911E808234F9F710002123E /* TimerItem.swift in Sources */,
+				E911E811234FBE7E0002123E /* CollectionTimersBehavior.swift in Sources */,
 				E9BB2E35232E689000174408 /* SplitViewController.swift in Sources */,
 				E9C9DA702331777A00AE5287 /* TabbarTintColorLifecycleBehavior.swift in Sources */,
 				E9C9DA6C2331757E00AE5287 /* UINavigationBarTintLifecycleBehavior.swift in Sources */,
 				E9C9DA622331693800AE5287 /* UIViewController+LifecycleBehavior.swift in Sources */,
 				E9C9DA5E2331670500AE5287 /* LifecycleBehavior.swift in Sources */,
 				E9C9DA6E2331769100AE5287 /* ProfileViewController.swift in Sources */,
+				E911E80A234FA4C80002123E /* TimerItemsDataProvider.swift in Sources */,
 				E92B03722335551400479130 /* ThirdFeedViewController.swift in Sources */,
 				E9E77F6B232E5AE200399CEA /* InternalContainerView.swift in Sources */,
 				E9E77F62232E553100399CEA /* Button.swift in Sources */,
 				E92B03742335561C00479130 /* SecondFeedViewController.swift in Sources */,
+				E90EA798234BAA1D00E54140 /* FeedDataProvider.swift in Sources */,
 				E9C9DA6823316F8400AE5287 /* TimerLifecycleBehavior.swift in Sources */,
+				E911E80C234FA7280002123E /* TimerCell.swift in Sources */,
 				E9E77F67232E59F200399CEA /* LoadingComponent.swift in Sources */,
 				E9BB2E37232E730E00174408 /* FeedViewController.swift in Sources */,
 				E9C9DA6623316EF200AE5287 /* PrintMethodsLifecycleBehavior.swift in Sources */,
