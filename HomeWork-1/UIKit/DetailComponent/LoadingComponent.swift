@@ -16,7 +16,7 @@ public class LoadingComponent: UIView {
             return self.textLabel?.text
         }
         set {
-            self.textLabel?.text = self.text
+            self.textLabel?.text = newValue
         }
     }
 

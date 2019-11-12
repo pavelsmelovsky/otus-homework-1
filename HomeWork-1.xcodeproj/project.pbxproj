@@ -16,6 +16,10 @@
 		E92B03702335528200479130 /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92B036F2335528200479130 /* Feed.storyboard */; };
 		E92B03722335551400479130 /* ThirdFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B03712335551400479130 /* ThirdFeedViewController.swift */; };
 		E92B03742335561C00479130 /* SecondFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B03732335561C00479130 /* SecondFeedViewController.swift */; };
+		E9AEFF2F23578ECE00514EA7 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AEFF2E23578ECE00514EA7 /* PieChart.swift */; };
+		E9AEFF3123578F3B00514EA7 /* PieItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AEFF3023578F3B00514EA7 /* PieItem.swift */; };
+		E9AEFF332357917900514EA7 /* PieChartLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AEFF322357917900514EA7 /* PieChartLayer.swift */; };
+		E9AEFF352357955900514EA7 /* PieChartContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AEFF342357955900514EA7 /* PieChartContext.swift */; };
 		E9BB2E35232E689000174408 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BB2E34232E689000174408 /* SplitViewController.swift */; };
 		E9BB2E37232E730E00174408 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BB2E36232E730E00174408 /* FeedViewController.swift */; };
 		E9C9DA5E2331670500AE5287 /* LifecycleBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9DA5D2331670500AE5287 /* LifecycleBehavior.swift */; };
@@ -36,6 +40,7 @@
 		E9E77F69232E5A0500399CEA /* LoadingComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9E77F68232E5A0500399CEA /* LoadingComponent.xib */; };
 		E9E77F6B232E5AE200399CEA /* InternalContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E77F6A232E5AE200399CEA /* InternalContainerView.swift */; };
 		E9E77F6D232E5F9400399CEA /* Secondary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E77F6C232E5F9400399CEA /* Secondary.storyboard */; };
+		E9F30B05235F744100D87B3E /* PieChartLayertDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F30B04235F744100D87B3E /* PieChartLayertDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +53,10 @@
 		E92B036F2335528200479130 /* Feed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
 		E92B03712335551400479130 /* ThirdFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFeedViewController.swift; sourceTree = "<group>"; };
 		E92B03732335561C00479130 /* SecondFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFeedViewController.swift; sourceTree = "<group>"; };
+		E9AEFF2E23578ECE00514EA7 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		E9AEFF3023578F3B00514EA7 /* PieItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieItem.swift; sourceTree = "<group>"; };
+		E9AEFF322357917900514EA7 /* PieChartLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartLayer.swift; sourceTree = "<group>"; };
+		E9AEFF342357955900514EA7 /* PieChartContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartContext.swift; sourceTree = "<group>"; };
 		E9BB2E34232E689000174408 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 		E9BB2E36232E730E00174408 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		E9C9DA5D2331670500AE5287 /* LifecycleBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleBehavior.swift; sourceTree = "<group>"; };
@@ -70,6 +79,7 @@
 		E9E77F68232E5A0500399CEA /* LoadingComponent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingComponent.xib; sourceTree = "<group>"; };
 		E9E77F6A232E5AE200399CEA /* InternalContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalContainerView.swift; sourceTree = "<group>"; };
 		E9E77F6C232E5F9400399CEA /* Secondary.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Secondary.storyboard; sourceTree = "<group>"; };
+		E9F30B04235F744100D87B3E /* PieChartLayertDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartLayertDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +158,18 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
+		E9AEFF2D23578EB800514EA7 /* PieChart */ = {
+			isa = PBXGroup;
+			children = (
+				E9AEFF2E23578ECE00514EA7 /* PieChart.swift */,
+				E9AEFF3023578F3B00514EA7 /* PieItem.swift */,
+				E9AEFF322357917900514EA7 /* PieChartLayer.swift */,
+				E9AEFF342357955900514EA7 /* PieChartContext.swift */,
+				E9F30B04235F744100D87B3E /* PieChartLayertDataSource.swift */,
+			);
+			path = PieChart;
+			sourceTree = "<group>";
+		};
 		E9BB2E33232E686900174408 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +245,7 @@
 		E9E77F60232E551100399CEA /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				E9AEFF2D23578EB800514EA7 /* PieChart */,
 				E9C9DA5C233166CB00AE5287 /* ViewControllerLyfecycleBehavior */,
 				E9E77F65232E59B800399CEA /* DetailComponent */,
 				E9E77F61232E553100399CEA /* Button.swift */,
@@ -323,7 +346,9 @@
 				E9C9DA622331693800AE5287 /* UIViewController+LifecycleBehavior.swift in Sources */,
 				E9C9DA5E2331670500AE5287 /* LifecycleBehavior.swift in Sources */,
 				E9C9DA6E2331769100AE5287 /* ProfileViewController.swift in Sources */,
+				E9AEFF2F23578ECE00514EA7 /* PieChart.swift in Sources */,
 				E911E80A234FA4C80002123E /* TimerItemsDataProvider.swift in Sources */,
+				E9F30B05235F744100D87B3E /* PieChartLayertDataSource.swift in Sources */,
 				E92B03722335551400479130 /* ThirdFeedViewController.swift in Sources */,
 				E9E77F6B232E5AE200399CEA /* InternalContainerView.swift in Sources */,
 				E9E77F62232E553100399CEA /* Button.swift in Sources */,
@@ -335,8 +360,11 @@
 				E9BB2E37232E730E00174408 /* FeedViewController.swift in Sources */,
 				E9C9DA6623316EF200AE5287 /* PrintMethodsLifecycleBehavior.swift in Sources */,
 				E9E77F4F232E4F8500399CEA /* AppDelegate.swift in Sources */,
+				E9AEFF3123578F3B00514EA7 /* PieItem.swift in Sources */,
+				E9AEFF332357917900514EA7 /* PieChartLayer.swift in Sources */,
 				E9C9DA6A2331716200AE5287 /* BenchmarkViewController.swift in Sources */,
 				E9C9DA602331681700AE5287 /* LifecycleBehaviorViewController.swift in Sources */,
+				E9AEFF352357955900514EA7 /* PieChartContext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
